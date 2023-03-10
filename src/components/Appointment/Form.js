@@ -1,8 +1,12 @@
-import React from "react";
+import React, {useState} from "react";
 import InterviewerList from "components/InterviewerList"
 import Button from "components/Button";
 
-export default function Appointment(props){
+const [student, setStudent] = useState(props.student || "");
+const [interviewer, setInterviewer] = useState(props.interviewer || null);
+
+
+export default function Form(props){
   return (
     <main className="appointment__card appointment__card--create">
       <section className="appointment__card-left">
@@ -15,6 +19,7 @@ export default function Appointment(props){
         />
       </form>
       <InterviewerList
+        interviewers={props.interviewers}
       />
       </section>
       <section className="appointment__card-right">
