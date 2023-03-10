@@ -2,9 +2,9 @@ import React from 'react';
 import "components/Interviewer.scss"
 import InterviewerListItem from './InterViewerListItem';
 
-export default function Interviewer(props){
-
-  const interviewer = props.interviewers.map((interviewer) => {
+export default function InterviewerList(props){
+  console.log(props.interviewers)
+  const listOfPeople = props.interviewers.map((interviewer) => {
 
     return (
       <InterviewerListItem
@@ -20,6 +20,7 @@ export default function Interviewer(props){
   return (
     <section className="interviewers">
       <h4 className="interviewers__header text--light">Interviewer</h4>
-      <ul className="interviewers__list">{interviewer}</ul>
+      <ul className="interviewers__list">{listOfPeople}</ul>
    </section>
   )}
+
