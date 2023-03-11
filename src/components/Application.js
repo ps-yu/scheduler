@@ -59,6 +59,14 @@ const appointments = {
     time: "4pm",
   }
 };
+const schedules = Object.values(appointments).map((schedule=>{
+  return(
+    <Appointment
+      key = {schedule.id}
+      {...schedule}
+    />
+  )
+}))
 
 
 export default function Application(props) {
@@ -87,7 +95,7 @@ export default function Application(props) {
         />
       </section>
       <section className="schedule">
-           
+        {schedules}
       </section>
     </main>
   );
