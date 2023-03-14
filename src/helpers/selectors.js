@@ -9,7 +9,7 @@ export function getAppointmentsForDay(state, day) {
 
 }
 
-export function getInterviewersForDay(state, day) {
+export  function getInterviewersForDay(state, day) {
 
   const findDays = state.days.find(findDay => findDay.name === day);
 
@@ -19,7 +19,7 @@ export function getInterviewersForDay(state, day) {
 
 }
 
-export function getInterview(state, interview) {
+export  function getInterview(state, interview) {
 
   if (!interview) { return null; }
   return {
