@@ -43,6 +43,7 @@
     "babel-loader": "8.1.0",
     "install": "^0.13.0",
     "npm": "^9.6.1",
+    "prop-types": "^15.8.1",
     "react-test-renderer": "^16.9.0",
     "sass": "^1.53.0"
   },
