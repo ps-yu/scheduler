@@ -22,4 +22,4 @@ Install dependencies with `npm install`
 
 ## Preview of the App
 
-![Preview] (https://github.com/ps-yu/scheduler/tree/master/docs)
+![Preview] (https://github.com/ps-yu/scheduler/blob/master/docs/Scheduler_AdobeExpress.gif)
