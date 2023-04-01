@@ -1,23 +1,25 @@
-# Interview Scheduler
+## Interview Scheduler
 
-## Setup
+Interview Scheduler is a single-page application (SPA) that allows users to book technical interviews between students and mentors.
 
-Install dependencies with `npm install`.
+This project was build with React as part of my Lighthouse Labs studies, having the client application communicate with an API server over HTTP, using Axios to make calls to the API, and I coudl also experience with different development environments, including Storybook, Jest, and Webpack Dev Server.
 
-## Running Webpack Development Server
+## Getting Started
+Install dependencies with `npm install`
 
-```sh
-npm start
-```
+## Running Webpack Development Server 
+`npm start`
 
-## Running Jest Test Framework
+## Dependencies
 
-```sh
-npm test
-```
+    Axios
+    Classnames
+    Normalize CSS
+    React
+    React-dom
+    React-scripts
 
-## Running Storybook Visual Testbed
 
-```sh
-npm run storybook
-```
+## Preview of the App
+
+![Preview] (https://github.com/ps-yu/scheduler/tree/master/docs)
