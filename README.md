@@ -23,5 +23,5 @@ Install dependencies with `npm install`
 ## Preview of the App
 
 !["Appointments"](https://github.com/ps-yu/scheduler/blob/master/docs/Appointments.png)
-!["Deleting"] (https://github.com/ps-yu/scheduler/blob/master/docs/Deleting.png)
+!["Deleting"](https://github.com/ps-yu/scheduler/blob/master/docs/Deleting.png)
 !["Creating new appointment"](https://github.com/ps-yu/scheduler/blob/master/docs/Creating.png)
