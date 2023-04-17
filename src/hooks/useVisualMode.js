@@ -5,12 +5,13 @@ export default function useVisualMode(initial){
   const [history, setHistory] = useState([initial]);
   function transition(change, replace=false){
     if (replace){
-      setHistory([...history.slice(0, history.length - 1), change])
+      console.log("before slice", history)
+      setHistory(prev=>[...prev.slice(0, prev.length - 1), change])
       setMode(change)
       return;
     }
     setMode(change)
-    setHistory([...history,change])
+    setHistory(prev=>[...prev,change])
   }
   function back(){
     if (history.length > 1){
