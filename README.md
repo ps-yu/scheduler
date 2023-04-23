@@ -10,6 +10,10 @@ Install dependencies with `npm install`
 ## Running Webpack Development Server 
 `npm start`
 
+## API SERVER AND Database Setup
+
+For full functionality and test purposes you can clone and scheduler-api server [here](https://github.com/lighthouse-labs/scheduler-api)
+
 ## Dependencies
 
     Axios
@@ -25,3 +29,7 @@ Install dependencies with `npm install`
 !["Appointments"](https://github.com/ps-yu/scheduler/blob/master/docs/Appointments.png)
 !["Deleting"](https://github.com/ps-yu/scheduler/blob/master/docs/Deleting.png)
 !["Creating new appointment"](https://github.com/ps-yu/scheduler/blob/master/docs/Creating.png)
+
+
+
+
